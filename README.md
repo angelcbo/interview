@@ -1,3 +1,9 @@
+# Running automated test
+- You need to run `npm install`
+- Run `npm run test`
+- Wait for it to run
+
+
 # Code exercise
 
 Please follow these steps to complete this exercise.

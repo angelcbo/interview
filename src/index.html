@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="top-container">
+        <button id="addCards" onclick="addCards()">Add profile cards</button>
+    </div>
+    <div id="card-container" class="container">
+        <!-- <div class="profile-card">
+            <img src="assets/profilepic.png" alt="" class="profile-picture">
+            <h1 id="profile-name" class="title">Angel Omar Ceniceros Berumen</h1>
+            <h2 id="profile-email" class="subtitle" >angel.cenicerosb@gmail.com</h2>
+            <h3 class="subtitle">6182670333</h3>
+            <div class="social-media">
+                <a id="facebook" href="#" class="fa fa-facebook"></a>
+                <a id="twitter" href="" class="fa fa-twitter"></a>
+            </div>  
+        </div> -->
+        <profile-component 
+        class="profile-component"
+        fullname="Angel Omar Ceniceros Berumennn"
+        email="angel.cenicerosb@gmail.com"
+        phone="6181234567"
+        pictureurl="assets/profilepic.png"
+        ></profile-component>
+
+    </div>
+    
+ <script src="js/index.js"></script>
+ <script src="js/components/profile.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "Please follow these steps to complete this exercise.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "serve": "live-server src",
+    "ttab:serve": "ttab npm run serve",
+    "cypress:open": "cypress open",
+    "ttab:cypress:open": "ttab npm run cypress:open",
+    "test": "run-s ttab:serve ttab:cypress:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorod97/interview.git"
+  },
+  "author": "angel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorod97/interview/issues"
+  },
+  "homepage": "https://github.com/victorod97/interview#readme",
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "ttab": "^0.7.2"
+  }
+}
